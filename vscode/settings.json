@@ -4,5 +4,9 @@
     "editor.lineNumbers": "relative",
     "editor.fontFamily": "'fira code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.find.addExtraSpaceOnTop": false,
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.formatting.provider": "yapf"
 }
