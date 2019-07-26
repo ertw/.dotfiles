@@ -144,7 +144,7 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-mute 0 false && pactl set-sink-
 bindsym XF86AudioLowerVolume exec pactl set-sink-mute 0 false && pactl set-sink-volume 0 -5%
 bar {
     position top
-    status_command while node /home/ertw/Documents/statusline/statusline.js; do sleep 1; done
+    status_command node /home/ertw/Documents/statusline/dist/statusline.js
     font "noto sans"
     hidden_state hide
     modifier Mod4
