@@ -28,7 +28,7 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-    wget vim sway swaylock xwayland dmenu alacritty brightnessctl
+    wget vim sway swaylock xwayland dmenu alacritty brightnessctl binutils gcc gnumake openssl pkgconfig
   ];
 
   programs = {
