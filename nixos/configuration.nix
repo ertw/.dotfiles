@@ -17,7 +17,10 @@
 
   services = {
     printing.enable = true;
+    flatpak.enable = true;
   };
+
+  powerManagement.powertop.enable = true;
 
   i18n.consoleUseXkbConfig = true;
 
@@ -25,7 +28,9 @@
 
   time.timeZone = "America/Santiago";
 
-  nixpkgs.config.allowUnfree = true;
+  nixpkgs.config = {
+    allowUnfree = true;
+  };
 
   environment.systemPackages = with pkgs; [
     wget vim sway swaylock xwayland dmenu alacritty brightnessctl binutils gcc gnumake openssl pkgconfig
