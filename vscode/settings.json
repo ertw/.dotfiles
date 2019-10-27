@@ -5,9 +5,6 @@
     "editor.fontFamily": "'fira code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.find.addExtraSpaceOnTop": false,
     "editor.fontLigatures": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "python.linting.flake8Enabled": false,
-    "python.formatting.provider": "yapf",
-    "C_Cpp.updateChannel": "Insiders"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0,
 }
