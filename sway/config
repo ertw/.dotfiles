@@ -18,7 +18,7 @@ set $term alacritty
 set $menu 'rofi -modi run, drun, window, combi  -show combi' 
 
 # Default wallpaper
-output * bg ./wallpaper.png fill
+output * bg wallpaper.png fill
 
 # Internal display
 output eDP-1 pos 0 1080 res 1920x1080
@@ -169,7 +169,7 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-mute 0 false && pactl set-sink-
 bindsym XF86AudioLowerVolume exec pactl set-sink-mute 0 false && pactl set-sink-volume 0 -5%
 bar {
     position top
-    status_command node ~/.sway/statusline.js
+    status_command node ~/Documents/statusline/dist/statusline.js
     font "noto sans"
     hidden_state hide
     modifier Mod4
