@@ -34,6 +34,9 @@ input "2:7:SynPS/2_Synaptics_TouchPad" {
 input "2:10:TPPS/2_Elan_TrackPoint" {
     natural_scroll enabled
 }
+input "1133:4136:Logitech_M570" {
+    natural_scroll enabled
+}
 input "1133:16495:Logitech_MX_Ergo" {
     natural_scroll enabled
 }
